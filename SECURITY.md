@@ -31,7 +31,7 @@ considerations should always be weighed:
 
     > It should be assumed that any data committed to GitHub at any point has been compromised.
 
-    a)  Before the event security is commonly achieved through:
+    -   Before the event security is commonly achieved through:
 
         -   Exhaustive enumeration of files which SHOULD NEVER be commited in [.gitignore][] files. These files instruct client
             tools, such as the `git` command line utility, to [ignore paths and patterns][.gitignore-eg] when aggregating files
