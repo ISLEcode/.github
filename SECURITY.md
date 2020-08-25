@@ -9,14 +9,16 @@
 Building and deploying secure software component and applications involves many aspects; in all cases the following three
 considerations should always be weighed:
 
--   Cybersecurity is a constantly evolving discipline; adopt the [Socratic paradox][socratic-paradox]:
-    **I know that I know nothing about security**.
+-   **I know that I know nothing about SECURITY**\
+    Cybersecurity is a constantly evolving discipline; adopt the [Socratic paradox][socratic-paradox].
 
--   Code must not only be created correctly, it must also be created securely; rethink the US Navy [KISS
-    principle][kiss-principle] as: **Keep it simple, secure**.
+-   **Keep it simple, SECURE**\
+    A revisited US Navy [KISS principle][kiss-principle] to emphasise that code must not only be created correctly, it must also
+    be created securely.
 
--   Security compliance must be enacted at all stages of the software development life cycle. [DevOps] enables security testing
-    to be part of the day-to-day delivery processes ensuring that **applications comply to rules and regulations**.
+-   **Applications SHOULD comply to ORGANISATION rules and regulations**\
+    Security compliance must be enacted at all stages of the software development life cycle. [DevOps] enables security testing
+    to be part of the day-to-day delivery processes ensuring that
 
   [socratic-paradox]:   https://en.wikipedia.org/wiki/I_know_that_I_know_nothing
   [kiss-principle]:     https://en.wikipedia.org/wiki/KISS_principle
