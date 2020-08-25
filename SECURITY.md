@@ -14,7 +14,7 @@ and contributors should account for outside of the core development (i.e. code w
   [open source]:    https://en.wikipedia.org/wiki/Open_source
   [islecode]:       https://github.com/ISLEcode
 
-Building and deploying secure software component and applications involves many aspects; in all cases the following three
+Building and deploying secure software components and applications involves many aspects; in all cases the following three
 considerations should always be weighed:
 
 -   **I know that I know nothing about SECURITY**\
@@ -39,7 +39,7 @@ considerations should always be weighed:
     _Sensitive files_ are not always easily detectable, these could be – and often are, benign intermediate build files typically
     used for testing purposes and which contain, for instance, API keys or private configuration data.
 
-    -   Before the event security is commonly achieved through:
+    1.  Before the event security is commonly achieved through:
 
         -   Exhaustive enumeration of files which SHOULD NEVER be commited in [.gitignore][] files. These files instruct client
             tools, such as the `git` command line utility, to [ignore paths and patterns][.gitignore-eg] when aggregating files
@@ -51,7 +51,7 @@ considerations should always be weighed:
 
         -   The `.gitignore` method is not bullet proof. Repository maintainers should
 
-    -   After the event security occurs when sensitive information has been commited. The Git database needs to be cleanup to
+    1.  After the event security occurs when sensitive information has been commited. The Git database needs to be cleanup to
         remove all traces of that information; simply overwriting a commit isn't enough to ensure the data will not be accessible
         in the future. See GitHub's instructions on [removing sensitive data from a repository][zap-git-db].
 
