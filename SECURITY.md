@@ -26,10 +26,10 @@ considerations should always be weighed:
 
 1.  **Don't keep ANY sensitive files in a repository**
 
+    > It should be assumed that any data committed to GitHub at any point has been compromised.
+
     _Sensitive files_ are not always easily detectable, these could be – and often are, benign intermediate build files typically
     used for testing purposes and which contain, for instance, API keys or private configuration data.
-
-    > It should be assumed that any data committed to GitHub at any point has been compromised.
 
     -   Before the event security is commonly achieved through:
 
@@ -43,7 +43,7 @@ considerations should always be weighed:
 
         -   The `.gitignore` method is not bullet proof. Repository maintainers should
 
-    b)  After the event security occurs when sensitive information has been commited. The Git database needs to be cleanup to
+    -   After the event security occurs when sensitive information has been commited. The Git database needs to be cleanup to
         remove all traces of that information; simply overwriting a commit isn't enough to ensure the data will not be accessible
         in the future. See GitHub's instructions on [removing sensitive data from a repository][zap-git-db].
 
