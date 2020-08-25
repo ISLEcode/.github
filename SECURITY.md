@@ -13,7 +13,7 @@ considerations should always be weighed:
     Cybersecurity is a constantly evolving discipline; adopt the [Socratic paradox][socratic-paradox].
 
 -   **Keep it simple, SECURE**\
-    Revisited [KISS principle][kiss-principle] that emphasises to insuflate security from day zero.
+    Revisited [KISS principle][kiss-principle] that insuflates security as a primary concernt from day zero.
 
 -   **SECURED day-to-day delivery processes**\
     Recurring security testing through [DevOps] workflows enforcing the organisations' rules and regulations.
