@@ -14,6 +14,10 @@ and contributors should account for outside of the core development (i.e. code w
   [open source]:    https://en.wikipedia.org/wiki/Open_source
   [islecode]:       https://github.com/ISLEcode
 
+This document provides a set of recommendations and best practices for GitHub-based software development workflows, to ensure
+that information isn't inappropriately altered or destroyed, and to protect confidential information from being disclosed to
+people that should not have access to it.
+
 Building and deploying secure software components and applications involves many aspects; in all cases the following three
 considerations should always be weighed:
 
