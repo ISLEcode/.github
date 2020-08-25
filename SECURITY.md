@@ -6,6 +6,13 @@
 >   issues look for a `SECURITY.md` file in the root of a repository in order to responsibly disclose their concerns. Providing
 >   guidance in this file will ultimately speed up the resolution of these critical issues.
 
+This document provides a secured development strategy and recommendations for all [open][open source] and [inner source] projects
+maintained on the [ISLEcode] GitHub account.
+
+  [inner source]:   https://en.wikipedia.org/wiki/Inner_source
+  [open source]:    https://en.wikipedia.org/wiki/Open_source
+  [islecode]:       https://github.com/ISLEcode
+
 Building and deploying secure software component and applications involves many aspects; in all cases the following three
 considerations should always be weighed:
 
