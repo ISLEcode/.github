@@ -49,7 +49,9 @@ considerations should always be weighed:
         -   Always clean up your sandbox environment before commiting changes. For instance, when using the GNU Autotools build
             toolchain, perform a `make distclean` – and not `make clean` or `make realclean`, before any commit.
 
-        -   The `.gitignore` method is not bullet proof. Repository maintainers should
+        -   The `.gitignore` method is not bullet proof. Repository maintainers should, at a recurring interval — which should at
+            least be twice a year, check all files in the repository which are under revision control looking for those which may
+            contain sensitive data.
 
     1.  After the event security occurs when sensitive information has been commited. The Git database needs to be cleanup to
         remove all traces of that information; simply overwriting a commit isn't enough to ensure the data will not be accessible
