@@ -13,12 +13,10 @@ considerations should always be weighed:
     Cybersecurity is a constantly evolving discipline; adopt the [Socratic paradox][socratic-paradox].
 
 -   **Keep it simple, SECURE**\
-    A revisited US Navy [KISS principle][kiss-principle] to emphasise that code must not only be created correctly, it must also
-    be created securely.
+    Revisited [KISS principle][kiss-principle] that emphasises to insuflate security from day zero.
 
--   **Applications SHOULD comply to ORGANISATION rules and regulations**\
-    Security compliance must be enacted at all stages of the software development life cycle. [DevOps] enables security testing
-    to be part of the day-to-day delivery processes ensuring that
+-   **SECURED day-to-day delivery processes**\
+    Recurring security testing through [DevOps] workflows enforcing the organisations' rules and regulations.
 
   [socratic-paradox]:   https://en.wikipedia.org/wiki/I_know_that_I_know_nothing
   [kiss-principle]:     https://en.wikipedia.org/wiki/KISS_principle
