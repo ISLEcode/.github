@@ -1,22 +1,29 @@
 ### Overview
 
+For the purposes of this document, we define [security] as the need to make sure we properly authenticate who is accessing the
+data and that they have the correct permissions to do so. We primarily focus on _before the event_ scenarios intended to reduce
+the risk of security alerts. The GitHub-related workflows targeted by this document have limited access to historical or archival
+data or logs, required by _after the event_ security tracking to show evidence when something has gone wrong.
+
+  [security]: https://dictionary.cambridge.org/dictionary/english/security
+
 >   The community benefits of GitHub are substantial, but they also carry potential risks. The fact that anyone can propose bug
 >   fixes publicly comes with certain responsibilities. The most important is the responsible disclosure of information that
 >   could lead to security exploits before their underlying bugs can be fixed. Developers looking to report or address security
 >   issues look for a `SECURITY.md` file in the root of a repository in order to responsibly disclose their concerns. Providing
 >   guidance in this file will ultimately speed up the resolution of these critical issues.
 
-This document provides a secured development strategy and recommendations for all [open][open source] and [inner source] projects
-whose source code is maintained on the [ISLEcode] GitHub account. It delves into important considerations repository maintainers
-and contributors should account for outside of the core development (i.e. code writing) process.
+This document introduces a secured development strategy for all [open][open source] and [inner source] projects whose source code
+is maintained on the [ISLEcode] GitHub account. It delves into important considerations repository maintainers and contributors
+should account for outside of the core development (i.e. code writing) process.
 
   [inner source]:   https://en.wikipedia.org/wiki/Inner_source
   [open source]:    https://en.wikipedia.org/wiki/Open_source
   [islecode]:       https://github.com/ISLEcode
 
-This document provides a set of recommendations and best practices for GitHub-based software development workflows, to ensure
-that information isn't inappropriately altered or destroyed, and to protect confidential information from being disclosed to
-people that should not have access to it.
+This strategy is organised as a set of recommendations and best practices for GitHub-based software development workflows, to
+ensure that information isn't inappropriately altered or destroyed, and to protect confidential information from being disclosed
+to people that should not have access to it.
 
 Building and deploying secure software components and applications involves many aspects; in all cases the following three
 considerations should always be weighed:
