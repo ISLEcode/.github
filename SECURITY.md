@@ -22,3 +22,33 @@ considerations should always be weighed:
   [kiss-principle]:     https://en.wikipedia.org/wiki/KISS_principle
   [devops]:             https://en.wikipedia.org/wiki/DevOps
 
+### GitHub best practices
+
+1.  **Don't keep ANY sensitive files in a repository**
+
+    _Sensitive files_ are not always easily detectable, these could be – and often are, benign intermediate build files typically
+    used for testing purposes and which contain, for instance, API keys or private configuration data.
+
+    > It should be assumed that any data committed to GitHub at any point has been compromised.
+
+    a)  Before the event security is commonly achieved through:
+
+        -   Exhaustive enumeration of files which SHOULD NEVER be commited in [.gitignore][] files. These files instruct client
+            tools, such as the `git` command line utility, to [ignore paths and patterns][.gitignore-eg] when aggregating files
+            for a commit. Though multiple such files can be created in a same Git repository; we recommend concentrating all rules
+            in a single file in the top level directory.
+
+        -   Always clean up your sandbox environment before commiting changes. For instance, when using the GNU Autotools build
+            toolchain, perform a `make distclean` – and not `make clean` or `make realclean`, before any commit.
+
+        -   The `.gitignore` method is not bullet proof. Repository maintainers should
+
+    b)  After the event security occurs when sensitive information has been commited. The Git database needs to be cleanup to
+        remove all traces of that information; simply overwriting a commit isn't enough to ensure the data will not be accessible
+        in the future. See GitHub's instructions on [removing sensitive data from a repository][zap-git-db].
+
+  [.gitignore]:     https://help.github.com/github/using-git/ignoring-files
+  [.gitignore-eg]:  https://github.com/github/gitignore
+  [zap-git-db]:     https://help.github.com/github/authenticating-to-github/removing-sensitive-data-from-a-repository
+
+
