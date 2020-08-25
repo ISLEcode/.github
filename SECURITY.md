@@ -7,7 +7,8 @@
 >   guidance in this file will ultimately speed up the resolution of these critical issues.
 
 This document provides a secured development strategy and recommendations for all [open][open source] and [inner source] projects
-maintained on the [ISLEcode] GitHub account.
+whose source code is maintained on the [ISLEcode] GitHub account. It delves into important considerations repository maintainers
+and contributors should account for outside of the core development (i.e. code writing) process.
 
   [inner source]:   https://en.wikipedia.org/wiki/Inner_source
   [open source]:    https://en.wikipedia.org/wiki/Open_source
