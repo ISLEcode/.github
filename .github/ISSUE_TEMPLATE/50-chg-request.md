@@ -31,10 +31,12 @@ The change control process consists of five distinct steps:
 
 ### Priority
 
-- [ ] _1 -- Critical_: Work stoppage or severe impact on productivity has occurred; solution needed immediately.
-- [ ] _2 -- High_: Work stoppage or severe impact on productivity is eminent; solution needed before impact occurs.
-- [ ] _3 -- Medium_: Impact on productivity is expected; workaround has been identified and solution is needed.
-- [ ] _4 -- Low_: Impact on productivity is minimal; solution is needed.
+|   | | Level | Description |
+|:-:|:-:|:---------------|:------------------------------------------------------------------------------------------------------|
+|   | 1 | _Critical_     | Work stoppage or severe impact on productivity has occurred; solution needed immediately |
+|   | 2 | _High_         | Work stoppage or severe impact on productivity is eminent; solution needed before impact occurs |
+| ✓ | 3 | _Medium_       | Impact on productivity is expected; workaround has been identified and solution is needed |
+|   | 4 | _Low_          | Impact on productivity is minimal; solution is needed |
 
 ### Description
 
@@ -60,13 +62,13 @@ _Exemple_: Staffing costs will increase by 1 full-time database administrator.
 
 1.  **Area**
 
-    |   | Status         | Purpose |
+    |   | Area | Impact |
     |:-:|:---------------|:------------------------------------------------------------------------------------------------------|
-    |   | _Project cost increase_ | change will result in an increase to project costs |
+    | ✓ | _Project cost increase_ | change will result in an increase to project costs |
     |   | _Project cost decrease_ | change will result in a decrease to project costs |
     |   | _Scope increase_        | change will result in an increase to project scope of work |
     |   | _Scope decrease_        | change will result in a decrease to project scope of work |
-    |   | _Schedule change_       | change will result in a change to the master project schedule |
+    | ✓ | _Schedule change_       | change will result in a change to the master project schedule |
 
 1.  **Metrics**
 
