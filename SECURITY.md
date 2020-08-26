@@ -8,7 +8,7 @@
 | [Contact](#contact)
 
 <a name="preamble"></a>
-### [¶](#top) Preamble
+## [¶](#top) Preamble
 
 For the purposes of this document, we define [security] as the need to make sure we properly authenticate who is accessing the
 data and that they have the correct permissions to do so. We primarily focus on _before the event_ scenarios intended to reduce
@@ -24,7 +24,7 @@ _MAY_, and _OPTIONAL_ in this document are to be interpreted as per [BCP 14][bcp
   [rfc8174]: https://tools.ietf.org/html/rfc8174
 
 <a name="overview"></a>
-### [¶](#top) Overview
+## [¶](#top) Overview
 
 >   The community benefits of GitHub are substantial, but they also carry potential risks. The fact that anyone can propose bug
 >   fixes publicly comes with certain responsibilities. The most important is the responsible disclosure of information that
@@ -45,10 +45,10 @@ ensure that information isn't inappropriately altered or destroyed, and to prote
 to people that should not have access to it.
 
 <a name="mindset"></a>
-### [¶](#top) Mindset
+## [¶](#top) Mindset
 
-Building and deploying secure software components and applications involves many aspects; in all cases the following three
-considerations should always be weighed:
+Building and deploying secure software components and applications involves many aspects; keep the following considerations in
+mind at all times:
 
 -   **I know that I know nothing about SECURITY**\
     Cybersecurity is a constantly evolving discipline; adopt the [Socratic paradox][socratic-paradox].
@@ -64,7 +64,7 @@ considerations should always be weighed:
   [devops]:             https://en.wikipedia.org/wiki/DevOps
 
 <a name="bcp"></a>
-### [¶](#top) Best practices
+## [¶](#top) Best practices
 
 1.  **Don't keep ANY sensitive files in a repository**
 
@@ -119,7 +119,7 @@ considerations should always be weighed:
   [gh-depbot]: https://bit.ly/31qxyya
 
 <a name="contact"></a>
-### [¶](#top) Contact
+## [¶](#top) Contact
 
 ISLE Security Officer\
 secmon@isle.plus
