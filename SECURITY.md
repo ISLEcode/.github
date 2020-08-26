@@ -2,8 +2,8 @@
 
 | Table of contents |
 | ----------------- |
-| [Preamble]        |
-| [Contact]         |
+| [Preamble](#preamble)        |
+| [Contact](#contact)         |
 
 <a name="preamble"></a>
 ### Preamble
