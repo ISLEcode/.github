@@ -8,7 +8,7 @@
 | [Mindset](#mindset) |
 
 <a name="preamble"></a>
-### [:home:](#top) Preamble
+### [¶](#top) Preamble
 
 For the purposes of this document, we define [security] as the need to make sure we properly authenticate who is accessing the
 data and that they have the correct permissions to do so. We primarily focus on _before the event_ scenarios intended to reduce
@@ -25,7 +25,7 @@ _MAY_, and _OPTIONAL_ in this document are to be interpreted as described in [BC
   [rfc8174]: https://tools.ietf.org/html/rfc8174
 
 <a name="overview"></a>
-### [:home:](#top) Overview
+### [¶](#top) Overview
 
 >   The community benefits of GitHub are substantial, but they also carry potential risks. The fact that anyone can propose bug
 >   fixes publicly comes with certain responsibilities. The most important is the responsible disclosure of information that
@@ -46,7 +46,7 @@ ensure that information isn't inappropriately altered or destroyed, and to prote
 to people that should not have access to it.
 
 <a name="mindset"></a>
-### [:home:](#top) Mindset
+### [¶](#top) Mindset
 
 Building and deploying secure software components and applications involves many aspects; in all cases the following three
 considerations should always be weighed:
@@ -64,7 +64,7 @@ considerations should always be weighed:
   [kiss-principle]:     https://en.wikipedia.org/wiki/KISS_principle
   [devops]:             https://en.wikipedia.org/wiki/DevOps
 
-### [:home:](#top) Best practices
+### [¶](#top) Best practices
 
 1.  **Don't keep ANY sensitive files in a repository**
 
@@ -119,7 +119,7 @@ considerations should always be weighed:
   [gh-depbot]: https://bit.ly/31qxyya
 
 <a name="contact"></a>
-### [:home:](#top) Contact
+### [¶](#top) Contact
 
 ISLE Security Officer\
 secmon@isle.plus
