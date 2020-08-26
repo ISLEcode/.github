@@ -4,6 +4,7 @@
 [Preamble](#preamble) |
 [Contact](#contact) |
 [Overview](#overview) |
+[Best practices](#bcp) |
 [Mindset](#mindset) |
 
 <a name="preamble"></a>
@@ -63,6 +64,7 @@ considerations should always be weighed:
   [kiss-principle]:     https://en.wikipedia.org/wiki/KISS_principle
   [devops]:             https://en.wikipedia.org/wiki/DevOps
 
+<a name="bcp"></a>
 ### [¶](#top) Best practices
 
 1.  **Don't keep ANY sensitive files in a repository**
