@@ -1,4 +1,4 @@
-### Overview
+### Preamble
 
 For the purposes of this document, we define [security] as the need to make sure we properly authenticate who is accessing the
 data and that they have the correct permissions to do so. We primarily focus on _before the event_ scenarios intended to reduce
@@ -6,6 +6,15 @@ the risk of security alerts. The GitHub-related workflows targeted by this docum
 data or logs, required by _after the event_ security tracking to show evidence when something has gone wrong.
 
   [security]: https://dictionary.cambridge.org/dictionary/english/security
+
+The key words _MUST_, _MUST NOT_, _REQUIRED_, _SHALL_, _SHALL NOT_, _SHOULD_, _SHOULD NOT_, _RECOMMENDED_, _NOT RECOMMENDED_,
+_MAY_, and _OPTIONAL_ in this document are to be interpreted as described in [BCP 14][bcp14] (aka RFC 2119 complemented with
+[RFC 8174][rcf8174]).
+
+  [bcp14]: https://tools.ietf.org/html/bcp14
+  [rfc8174]: https://tools.ietf.org/html/rfc8174
+
+### Overview
 
 >   The community benefits of GitHub are substantial, but they also carry potential risks. The fact that anyone can propose bug
 >   fixes publicly comes with certain responsibilities. The most important is the responsible disclosure of information that
@@ -25,6 +34,13 @@ This strategy is organised as a set of recommendations and best practices for Gi
 ensure that information isn't inappropriately altered or destroyed, and to protect confidential information from being disclosed
 to people that should not have access to it.
 
+### Contact
+
+ISLE Security Officer\
+secmon@isle.plus
+
+### Mindset
+
 Building and deploying secure software components and applications involves many aspects; in all cases the following three
 considerations should always be weighed:
 
@@ -41,7 +57,7 @@ considerations should always be weighed:
   [kiss-principle]:     https://en.wikipedia.org/wiki/KISS_principle
   [devops]:             https://en.wikipedia.org/wiki/DevOps
 
-### GitHub best practices
+### Best practices
 
 1.  **Don't keep ANY sensitive files in a repository**
 
@@ -72,4 +88,26 @@ considerations should always be weighed:
   [.gitignore-eg]:  https://github.com/github/gitignore
   [zap-git-db]:     https://help.github.com/github/authenticating-to-github/removing-sensitive-data-from-a-repository
 
+1.  **TRACK your dependencies**
+
+    Most projects these days take dependencies on external packages, which in turn have their own dependencies, etc. This brings
+    complexity and additional security risk; repository maintainers, often contributing to projects on a _best effort_ basis will
+    hardly stay on top of these packages and vulnerability status.
+
+    1.  An essential requirement to mitigate such security vulnerabilities is to regularly update all packages to their latest
+        release. Today, most programming languages and operating platforms have at least one package manager; such package
+        managers allow to conveniently update such packages — e.g. `yum update` for RHEL and CentOS, `composer update` for PHP,
+        or `npm update` for NodeJS. Such updates should be included in the build workflow.
+
+    2.  A list of the top-level packages required to build the software component or application should be maintained as a human
+        readable and managed file. The provides a quick reference for repository maintainers and contributors to track required
+        packages, the version required by the project, and possible security annotations.
+
+    3.  GitHub provides [dependency tracking][gh-dtrack] insights and the [Dependabot][gh-depbot] utility for selected packages
+        ecosystems; two of which are on ISLE's technology roadmap: namely PHP's composer and NodeJS' npm. These should be
+        configured to automate dependency alerts and create pull requests to update the project.
+
+
+  [gh-dtrack]: https://bit.ly/2Ezoyhq
+  [gh-depbot]: https://bit.ly/31qxyya
 
