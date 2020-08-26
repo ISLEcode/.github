@@ -4,5 +4,5 @@ contact_links:
     url: pmo@isle.plus
     about: Please report project management related concerns here.
   - name: ISLE Security Office
-    url: secmon@isle.plus
+    url: https://secmon.isle.plus
     about: Please report security vulnerabilities here.
