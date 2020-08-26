@@ -1,12 +1,10 @@
 ---
 name: BLD → Software build issue
 about: You have had an issue building the software and would like to report it back to us
-title: 'BLD'
+title: 'BLD + brief description of software build issue (max. 70 chars)'
 labels: 'i: enhancement, i: needs triage'
 assignees: marcastel
 ---
-
-_Set title to: 'BLD' + brief description of software build issue (max. 70 chars)_
 
 ## Expected behaviour
 Tell us what should happen

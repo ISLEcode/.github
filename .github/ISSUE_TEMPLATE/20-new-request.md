@@ -1,12 +1,10 @@
 ---
 name: NEW → New feature request
 about: You have an idea or suggestion for this project (only one by request)
-title: 'NEW'
+title: 'NEW + brief description of your idea/suggestion (max. 70 chars)'
 labels: 'i: enhancement, i: needs triage'
 assignees: marcastel
 ---
-
-<!-- Title = 'NEW' + brief description of your idea/suggestion (max. 70 chars) -->
 
 ### Background
 <!-- Clear, concise, and documented description of the problem or circumstances that triggered this feature request -->

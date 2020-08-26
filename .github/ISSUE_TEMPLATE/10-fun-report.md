@@ -1,12 +1,10 @@
 ---
 name: FUN → Functional bug report
 about: You have unveiled a functional bug and would like to report it back to us
-title: 'FUN'
+title: 'FUN + brief description of functional bug (max. 70 chars)'
 labels: 'i: enhancement, i: needs triage'
 assignees: marcastel
 ---
-
-_Set title to: 'FUN' + brief description of functional bug (max. 70 chars)_
 
 ## Expected behaviour
 Tell us what should happen

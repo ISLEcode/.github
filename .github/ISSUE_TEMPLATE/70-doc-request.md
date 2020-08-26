@@ -1,12 +1,10 @@
 ---
 name: DOC → Documentation change/update request
 about: You have noticed errors or documentation gaps that should be addresse
-title: 'DOC'
+title: 'DOC + brief description of documentation change or update (max. 70 chars)'
 labels: 'i: enhancement, i: needs triage'
 assignees: marcastel
 ---
-
-_Set title to: 'DOC' + brief description of documentation change or update (max. 70 chars)_
 
 ## Updates
 If your request is for extending the existing documentation, provide here an enumeration of the udpates you suggest.

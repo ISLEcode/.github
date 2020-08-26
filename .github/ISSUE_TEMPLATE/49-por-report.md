@@ -1,12 +1,10 @@
 ---
 name: POR → Portability issue report
 about: You have are having issues porting the software to a new platform and would like to report it back to us
-title: 'POR'
+title: 'POR + brief description of software build issue (max. 70 chars)'
 labels: 'i: enhancement, i: needs triage'
 assignees: marcastel
 ---
-
-_Set title to: 'POR' + brief description of software build issue (max. 70 chars)_
 
 ## Target
 Tell us about the device or sytem you are targeting.

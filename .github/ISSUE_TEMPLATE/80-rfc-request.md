@@ -1,12 +1,10 @@
 ---
 name: RFC → Request for comments
 about: You would like to trigger a conversational exchange on a technology or functional topic relating to this project
-title: 'RFC'
+title: 'RFC + brief description of topic to be discussed (max. 70 chars)'
 labels: 'i: enhancement, i: needs triage'
 assignees: marcastel
 ---
-
-<!-- Title = 'RFC' + brief description of topic to be discussed (max. 70 chars) -->
 
 # Summary
 
