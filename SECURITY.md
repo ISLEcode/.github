@@ -1,3 +1,10 @@
+<img src="https://avatars1.githubusercontent.com/u/20255067?s=200&v=4" align="right">
+
+| Table of contents |
+| ----------------- |
+| [Preamble]        |
+| [Contact]         |
+
 ### Preamble
 
 For the purposes of this document, we define [security] as the need to make sure we properly authenticate who is accessing the
@@ -33,11 +40,6 @@ should account for outside of the core development (i.e. code writing) process.
 This strategy is organised as a set of recommendations and best practices for GitHub-based software development workflows, to
 ensure that information isn't inappropriately altered or destroyed, and to protect confidential information from being disclosed
 to people that should not have access to it.
-
-### Contact
-
-ISLE Security Officer\
-secmon@isle.plus
 
 ### Mindset
 
@@ -110,4 +112,9 @@ considerations should always be weighed:
 
   [gh-dtrack]: https://bit.ly/2Ezoyhq
   [gh-depbot]: https://bit.ly/31qxyya
+
+### Contact
+
+ISLE Security Officer\
+secmon@isle.plus
 
