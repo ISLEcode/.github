@@ -1,11 +1,11 @@
 <img src="https://avatars1.githubusercontent.com/u/20255067?s=200&v=4" align="right">
 
 **Table of contents**\
-[Preamble](#preamble) |
-[Contact](#contact) |
-[Overview](#overview) |
-[Best practices](#bcp) |
-[Mindset](#mindset) |
+  [Preamble](#preamble)
+| [Overview](#overview)
+| [Best practices](#bcp)
+| [Mindset](#mindset)
+| [Contact](#contact)
 
 <a name="preamble"></a>
 ### [¶](#top) Preamble
