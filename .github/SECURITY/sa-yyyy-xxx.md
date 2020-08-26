@@ -1,3 +1,5 @@
+<img src="https://avatars1.githubusercontent.com/u/20255067?s=200&v=4" align="right">
+
 | Identification | |
 | --: | :----------|
 | CVE # | CVE-2018-12345 |
