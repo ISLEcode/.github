@@ -1,3 +1,5 @@
+# Code of conduct
+#
 <img src="https://avatars1.githubusercontent.com/u/20255067?s=200&v=4" align="right">
 
 **Table of contents**\
