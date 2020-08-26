@@ -2,11 +2,13 @@
 
 | Table of contents |
 | ----------------- |
-| [Preamble](#preamble)        |
-| [Contact](#contact)         |
+| [Preamble](#preamble) |
+| [Contact](#contact) |
+| [Overview](#overview) |
+| [Mindset](#mindset) |
 
 <a name="preamble"></a>
-### Preamble
+### [:home:](#top) Preamble
 
 For the purposes of this document, we define [security] as the need to make sure we properly authenticate who is accessing the
 data and that they have the correct permissions to do so. We primarily focus on _before the event_ scenarios intended to reduce
@@ -22,7 +24,8 @@ _MAY_, and _OPTIONAL_ in this document are to be interpreted as described in [BC
   [bcp14]: https://tools.ietf.org/html/bcp14
   [rfc8174]: https://tools.ietf.org/html/rfc8174
 
-### Overview
+<a name="overview"></a>
+### [:home:](#top) Overview
 
 >   The community benefits of GitHub are substantial, but they also carry potential risks. The fact that anyone can propose bug
 >   fixes publicly comes with certain responsibilities. The most important is the responsible disclosure of information that
@@ -42,7 +45,8 @@ This strategy is organised as a set of recommendations and best practices for Gi
 ensure that information isn't inappropriately altered or destroyed, and to protect confidential information from being disclosed
 to people that should not have access to it.
 
-### Mindset
+<a name="mindset"></a>
+### [:home:](#top) Mindset
 
 Building and deploying secure software components and applications involves many aspects; in all cases the following three
 considerations should always be weighed:
@@ -60,7 +64,7 @@ considerations should always be weighed:
   [kiss-principle]:     https://en.wikipedia.org/wiki/KISS_principle
   [devops]:             https://en.wikipedia.org/wiki/DevOps
 
-### Best practices
+### [:home:](#top) Best practices
 
 1.  **Don't keep ANY sensitive files in a repository**
 
@@ -115,7 +119,7 @@ considerations should always be weighed:
   [gh-depbot]: https://bit.ly/31qxyya
 
 <a name="contact"></a>
-### Contact
+### [:home:](#top) Contact
 
 ISLE Security Officer\
 secmon@isle.plus
