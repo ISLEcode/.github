@@ -10,15 +10,13 @@ assignees: marcastel
 
 The change control process consists of five distinct steps:
 
-1.  **Initiation** -- A change request form (this document) is issued.
-
-2.  **Analysis** -- The change request is analysed to determine if it has merit and should be considered. If so, additional analysis is conducted to determine what it will take to implement the change, identify project impacts, and provide any additional information that might aid decision-makers in granting or denying approval of the request
-
-3.  *Resolution/approval** -- Decision-makers consider the results of the analysis and determine if the request should be approved, denied, or if more analysis is needed
-
-4.  **Implementation** -- Approved changes are planned, scheduled, resourced and implemented
-
-5.  **Verification and closing** -- Implementation of the change is verified and the change request is closed
+|   | Step | Purpose |
+|:-:|:---------------|:----------------------------------------------------------------------------------------------------------|
+| 1 | **Initiation** | A change request form (this document) is issued. |
+| 2 | **Analysis** | The change request is analysed to determine if it has merit and should be considered. If so, additional analysis is conducted to determine what it will take to implement the change, identify project impacts, and provide any additional information that might aid decision-makers in granting or denying approval of the request. |
+| 3 | **Resolution/approval** | Decision-makers consider the results of the analysis and determine if the request should be approved, denied, or if more analysis is needed. |
+| 4 | **Implementation** | Approved changes are planned, scheduled, resourced and implemented. |
+| 5 | **Verification and closing** | Implementation of the change is verified and the change request is closed. |
 
 ### Category
 
