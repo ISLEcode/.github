@@ -91,7 +91,7 @@ In addition, please include the following information along with your report:
     If you believe that an existing (public) issue is security-related, the email should include the issue ID and a short
     description of why it should be handled according to this security policy.
 
-Once an issue is reported, [ISLEcode] uses the following disclosure process:
+Once a vulnerability reported, [ISLEcode] uses the following disclosure process:
 
 -   When a report is received, we confirm the issue and determine its severity.
 
@@ -105,7 +105,11 @@ Once an issue is reported, [ISLEcode] uses the following disclosure process:
 
 -   Patch releases are published for all fixed released versions, and the advisory is published.
 
-Past security advisories are listed below.
+Past security advisories are kept in the `.github/SECURITY` folder of the related repository.
+See the sample [README.md][saread] and [report][sareport] files.
+
+  [saread]:     https://github.com/ISLEcode/.github/blob/master/.github/SECURITY/README.md
+  [sareport]:   https://github.com/ISLEcode/.github/blob/master/.github/SECURITY/sa-yyyy-xxx.md
 
 _Note_: We credit reporters for identifying security issues, although we keep your name confidential if you request it.
 
