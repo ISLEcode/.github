@@ -1,4 +1,5 @@
 <img src="https://avatars1.githubusercontent.com/u/20255067?s=200&v=4" align="right">
+
 # Code of conduct
 
 **Table of contents**\
