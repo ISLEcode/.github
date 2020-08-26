@@ -84,6 +84,10 @@ _Exemple_: Staffing costs will increase by 1 full-time database administrator.
 
 ### Approval (reserved)
 
+| Test | Label| Desc|
+| ---- | -----| ----|
+| - [ ] | _Rework_ | The change request will be returned to the Originator for additional information|
+
 - [ ] _Rework_ -- The change request will be returned to the Originator for additional information
 - [ ] _Not accepted_ -- The change request is denied 
 - [ ] _Deferred_ -- The change request is put on hold until later in the project
