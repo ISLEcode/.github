@@ -1,5 +1,5 @@
 ---
-name: FR (Feature request)
+name: NEW (New feature request)
 about: You have an idea or suggestion for this project (only one by request)
 title: 'FR'
 labels: 'i: enhancement, i: needs triage'
