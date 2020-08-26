@@ -1,7 +1,7 @@
 ---
 name: CHG → Change request
-about: You re
-title: 'FUN'
+about: You would like to request a change in the project's scope, schedule, or costs.
+title: 'CHG brief description of the requested change (max. 70 chars)'
 labels: 'i: enhancement, i: needs triage'
 assignees: marcastel
 ---
