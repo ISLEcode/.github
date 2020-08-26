@@ -1,9 +1,9 @@
 <img src="https://avatars1.githubusercontent.com/u/20255067?s=200&v=4" align="right">
 
 **Table of contents**\
-[Preamble](#preamble) |\
-[Contact](#contact) |\
-[Overview](#overview) |\
+[Preamble](#preamble) |
+[Contact](#contact) |
+[Overview](#overview) |
 [Mindset](#mindset) |
 
 <a name="preamble"></a>
