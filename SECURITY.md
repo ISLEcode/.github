@@ -70,6 +70,8 @@ Please email reports about any security related issues you find to ISLE's [Secur
 will be acknowledged within one business day, and you'll receive a more detailed response to your email within 7 days indicating
 the next steps in handling your report.
 
+**Important**: Report security bugs in third-party modules to the person or team maintaining that module.
+
 Please use a descriptive subject line for your report email prefixed with the keyword `SECMON`. After the initial reply to your
 report, the security team will endeavor to keep you informed of the progress being made towards a fix and announcement.
 
@@ -98,7 +100,7 @@ Once an issue is reported, [ISLEcode] uses the following disclosure process:
 
 -   An advisory is prepared (but not published) which details the problem and steps for mitigation.
 
-=   Wherever possible, fixes are prepared for the last minor release of the two latest major releases, as well as the master
+-   Wherever possible, fixes are prepared for the last minor release of the two latest major releases, as well as the master
     branch. We will attempt to commit these fixes as soon as possible, and as close together as possible.
 
 -   Patch releases are published for all fixed released versions, and the advisory is published.
