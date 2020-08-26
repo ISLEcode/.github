@@ -2,8 +2,6 @@
 
 # Code of conduct
 
-[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](code_of_conduct.md)
-
 **Table of contents**\
   [Our pledge](#pledge)
 | [Our standaards](#standards)
@@ -13,6 +11,7 @@
 | [Guidelines](#guidelines)
 | [Attribution](#attribution)
 
+[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](code_of_conduct.md)
 
 <a name="pledge"></a>
 ### [¶](#top) Our pledge
