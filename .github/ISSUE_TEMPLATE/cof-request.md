@@ -6,16 +6,16 @@ labels: 'i: enhancement, i: needs triage'
 assignees: marcastel
 ---
 
-<!-- Title = 'COF' + brief description of your proposed change (max. 70 chars) -->
+_Set title to: 'COF' + brief description of your proposed change (max. 70 chars)_
 
 ### Current behaviour
-<!-- Clear, concise, and documented description of the current functionality -->
+Clear, concise, and documented description of the current functionality
 
 ### Suggested change
-<!-- Clear and concise description of your proposed change; illustrations/diagrams are highly appreciated -->
+Clear and concise description of your proposed change; illustrations/diagrams are highly appreciated
 
 ### Implementation
-<!-- What? who? when? how? … design/build/run, testing/integration, teachability/documentation, adoption/migration -->
+What? who? when? how? … design/build/run, testing/integration, teachability/documentation, adoption/migration
 
 ### See also
-<!-- Provide links too online resources of interest for this request -->
+Provide links too online resources of interest for this request
