@@ -40,9 +40,9 @@ The change control process consists of five distinct steps:
 
 ### Description
 
-_Exemple_: Data conversion is taking more time than planned due to the condition of the source data. Data conversion tasks are on
-the critical path and are at risk of slippage. Adding another full-time database administrator will add needed capacity to stay on
-schedule.
+_Example_: Data conversion is taking more time than planned due to the condition of the source data. Data conversion tasks are on
+the critical path and are at risk of slippage. Adding another full-time database administrator will add needed capacity to stay
+on schedule.
 
 ### Justification
 
