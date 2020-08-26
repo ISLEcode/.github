@@ -60,11 +60,13 @@ _Exemple_: Staffing costs will increase by 1 full-time database administrator.
 
 1.  **Area**
 
-    - [ ] _Project cost increase_: change will result in an increase to project costs.
-    - [ ] _Project cost decrease_: change will result in a decrease to project costs.
-    - [ ] _Scope increase_: change will result in an increase to project scope of work.
-    - [ ] _Scope decrease_: change will result in a decrease to project scope of work.
-    - [ ] _Schedule change_: change will result in a change to the master project schedule.
+    |   | Status         | Purpose |
+    |:-:|:---------------|:------------------------------------------------------------------------------------------------------|
+    |   | _Project cost increase_ | change will result in an increase to project costs |
+    |   | _Project cost decrease_ | change will result in a decrease to project costs |
+    |   | _Scope increase_        | change will result in an increase to project scope of work |
+    |   | _Scope decrease_        | change will result in a decrease to project scope of work |
+    |   | _Schedule change_       | change will result in a change to the master project schedule |
 
 1.  **Metrics**
 
