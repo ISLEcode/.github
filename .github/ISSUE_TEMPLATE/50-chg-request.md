@@ -12,12 +12,9 @@ The change control process consists of five distinct steps:
 
 1.  **Initiation** -- A change request form (this document) is issued.
 
-2.  **Analysis** -- The change request is analysed to determine if it has merit and should be considered. If so, additional
-    analysis is conducted to determine what it will take to implement the change, identify project impacts, and provide any
-    additional information that might aid decision-makers in granting or denying approval of the request
+2.  **Analysis** -- The change request is analysed to determine if it has merit and should be considered. If so, additional analysis is conducted to determine what it will take to implement the change, identify project impacts, and provide any additional information that might aid decision-makers in granting or denying approval of the request
 
-3.  *Resolution/approval** -- Decision-makers consider the results of the analysis and determine if the request should be
-    approved, denied, or if more analysis is needed
+3.  *Resolution/approval** -- Decision-makers consider the results of the analysis and determine if the request should be approved, denied, or if more analysis is needed
 
 4.  **Implementation** -- Approved changes are planned, scheduled, resourced and implemented
 
@@ -40,13 +37,11 @@ The change control process consists of five distinct steps:
 
 ### Description
 
-_Example_: Data conversion is taking more time than planned due to the condition of the source data. Data conversion tasks are on
-the critical path and are at risk of slippage. Adding another full-time database administrator will add needed capacity to stay
-on schedule.
+_Example_: Data conversion is taking more time than planned due to the condition of the source data. Data conversion tasks are on the critical path and are at risk of slippage. Adding another full-time database administrator will add needed capacity to stay on schedule.
 
 ### Justification
 
-_Exemple_ Change will prevent impact on project end date due to slippage of critical path data conversion tasks.
+_Example_ Change will prevent impact on project end date due to slippage of critical path data conversion tasks.
 
 ### Status
 
@@ -56,7 +51,7 @@ Current status or workaround (if applicable)
 
 Potential cost considerations (if known)
 
-_Exemple_: Staffing costs will increase by 1 full-time database administrator.
+_Example_: Staffing costs will increase by 1 full-time database administrator.
 
 ### Impact
 
