@@ -84,13 +84,11 @@ _Exemple_: Staffing costs will increase by 1 full-time database administrator.
 
 ### Approval (reserved)
 
-| Test | Label| Desc|
-| ---- | -----| ----|
-| :ok: | _Rework_ | The change request will be returned to the Originator for additional information|
-
-- [ ] _Rework_ -- The change request will be returned to the Originator for additional information
-- [ ] _Not accepted_ -- The change request is denied 
-- [ ] _Deferred_ -- The change request is put on hold until later in the project
-- [ ] _Approved_ -- The change request is approved for analysis
-- [ ] _Withdrawn_ -- The Change Request Originator has withdrawn the request
+|   | Status         | Purpose |
+|:-:|:---------------|:----------------------------------------------------------------------------------------------------------|
+| ✓ | _Rework_       | The change request will be returned to the Originator for additional information |
+|   | _Not accepted_ | The change request is denied |
+|   | _Deferred_     | The change request is put on hold until later in the project |
+|   | _Approved_     | The change request is approved for analysis |
+|   | _Withdrawn_    | The Change Request Originator has withdrawn the request |
 
