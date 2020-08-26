@@ -5,6 +5,7 @@
 | [Preamble]        |
 | [Contact]         |
 
+<a name="preamble"></a>
 ### Preamble
 
 For the purposes of this document, we define [security] as the need to make sure we properly authenticate who is accessing the
@@ -113,6 +114,7 @@ considerations should always be weighed:
   [gh-dtrack]: https://bit.ly/2Ezoyhq
   [gh-depbot]: https://bit.ly/31qxyya
 
+<a name="contact"></a>
 ### Contact
 
 ISLE Security Officer\
