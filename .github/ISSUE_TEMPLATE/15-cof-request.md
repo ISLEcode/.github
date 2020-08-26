@@ -1,5 +1,5 @@
 ---
-name: COF (Change of functionality request)
+name: COF → Change of functionality request
 about: You would like to request a change or adaptation of the behaviour of existing functionality
 title: 'COF'
 labels: 'i: enhancement, i: needs triage'

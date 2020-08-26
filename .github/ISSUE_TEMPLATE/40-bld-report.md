@@ -1,5 +1,5 @@
 ---
-name: BLD (Software build issue)
+name: BLD → Software build issue
 about: You have had an issue building the software and would like to report it back to us
 title: 'BLD'
 labels: 'i: enhancement, i: needs triage'

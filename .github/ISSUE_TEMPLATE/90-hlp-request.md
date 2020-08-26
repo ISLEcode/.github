@@ -1,5 +1,5 @@
 ---
-name: "HLP (Help request)"
+name: "HLP → Help request"
 about: Please file an issue in our help repo.
 title: 'HLP'
 labels: 'i: enhancement, i: needs triage'

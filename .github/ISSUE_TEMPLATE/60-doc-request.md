@@ -1,5 +1,5 @@
 ---
-name: DOC (Documentation change/update request)
+name: DOC → Documentation change/update request
 about: You have noticed errors or documentation gaps that should be addresse
 title: 'DOC'
 labels: 'i: enhancement, i: needs triage'

@@ -1,5 +1,5 @@
 ---
-name: FUN (Functional bug report)
+name: FUN → Functional bug report
 about: You have unveiled a functional bug and would like to report it back to us
 title: 'FUN'
 labels: 'i: enhancement, i: needs triage'

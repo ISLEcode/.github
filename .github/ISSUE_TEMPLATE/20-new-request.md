@@ -1,5 +1,5 @@
 ---
-name: NEW (New feature request)
+name: NEW → New feature request
 about: You have an idea or suggestion for this project (only one by request)
 title: 'NEW'
 labels: 'i: enhancement, i: needs triage'
