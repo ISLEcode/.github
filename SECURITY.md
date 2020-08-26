@@ -18,8 +18,7 @@ data or logs, required by _after the event_ security tracking to show evidence w
   [security]: https://dictionary.cambridge.org/dictionary/english/security
 
 The key words _MUST_, _MUST NOT_, _REQUIRED_, _SHALL_, _SHALL NOT_, _SHOULD_, _SHOULD NOT_, _RECOMMENDED_, _NOT RECOMMENDED_,
-_MAY_, and _OPTIONAL_ in this document are to be interpreted as described in [BCP 14][bcp14] (aka RFC 2119 complemented with
-[RFC 8174][rcf8174]).
+_MAY_, and _OPTIONAL_ in this document are to be interpreted as per [BCP 14][bcp14] complemented by [RFC 8174][rfc8174]).
 
   [bcp14]: https://tools.ietf.org/html/bcp14
   [rfc8174]: https://tools.ietf.org/html/rfc8174
