@@ -1,10 +1,12 @@
 ---
 name: Feature request
 about: You have an idea or suggestion for this project (only one by request)
-title: 'FR / brief description of your idea/suggestion (max. 80 chars)'
+title: 'FR'
 labels: 'i: enhancement, i: needs triage'
 assignees: marcastel
 ---
+
+<!-- Provide a brief description of your idea/suggestion (max. 80 chars) -->
 
 ### Problem
 <!-- Clear, concise, and documented description of the problem or circumstances that triggered this feature request -->
