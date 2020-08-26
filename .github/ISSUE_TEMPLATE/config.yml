@@ -1,8 +1,8 @@
 blank_issues_enabled: false
 contact_links:
   - name: ISLE Project Management Office
-    url: mailto:pmo@isle.plus
+    url: pmo@isle.plus
     about: Please report project management related concerns here.
   - name: ISLE Security Office
-    url: mailto:secmon@isle.plus
+    url: secmon@isle.plus
     about: Please report security vulnerabilities here.
