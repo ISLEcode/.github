@@ -1,6 +1,5 @@
 <img src="https://avatars1.githubusercontent.com/u/20255067?s=200&v=4" align="right">
 
-# Contributor Covenant Code of Conduct
 **Table of contents**\
   [Our pledge](#pledge)
 | [Our standaards](#standards)
