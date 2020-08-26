@@ -1,20 +1,22 @@
 ---
 name: Feature request
-about: Suggest an idea for this project
+about: You have an idea or suggestion for this project (only one by request)
 title: ''
-labels: enhancement
-assignees: FantasticFiasco
-
+labels: 'i: enhancement, i: needs triage'
+assignees: marcastel
 ---
 
-**Is your feature request related to a problem? Please describe.**
-A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
+### Name
+<!-- Provide a brief description of your idea/suggestion (max. 80 chars) -->
 
-**Describe the solution you'd like**
-A clear and concise description of what you want to happen.
+### Problem
+<!-- Clear, concise, and documented description of the problem or circumstances that triggered this feature request -->
 
-**Describe alternatives you've considered**
-A clear and concise description of any alternative solutions or features you've considered.
+### Solution
+<!-- Clear, concise, and illustrated description of your solution. Diagrams are highly appreciated. Alternatives too -->
 
-**Additional context**
-Add any other context or screenshots about the feature request here.
+### Implementation
+<!-- Try answering: what? who? when? how?, … address teachability, documentation, adoption, migration strategy -->
+
+### See also
+<!-- Provide links too online resources of interest for this feature -->
